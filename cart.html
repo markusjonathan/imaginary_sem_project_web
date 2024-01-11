@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imaginary</title>
+    <meta name="title" content="Imaginary - Get You MangaNovel" />
+    <meta
+      name="description"
+      content="This is Online Bokk japan Store by Binusian"
+    />
+
+    <!-- logo -->
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/svg+xml" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- swiperjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- header  -->
+
+    <div class="header">
+      <div class="header1">
+        <a href="index.html" class="logo" id="logo">
+          <img src="assets/logo2.jpg" width="65" height="65" />
+          <span class="spanlogo"> Imaginary </span>
+        </a>
+
+        <form action="" class="search-form">
+          <input
+            type="search"
+            name=""
+            placeholder="Search Your LN/Manga Here. . ."
+            id="search-box"
+          />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icon">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="cart.html" class="fas fa-shopping-cart"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+
+      <div class="header2">
+        <nav class="navbar">
+          <a href="index.html"> Home </a>
+          <a href="index.html#lightnovel"> Light Novel </a>
+          <a href="index.html#suscribe"> suscribe </a>
+          <a href="index.html#arrival"> Arrivals </a>
+          <a href="index.html#promo"> Promotion </a>
+          <a href="index.html#review"> Reviews </a>
+          <a href="index.html#blog"> Blogs </a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- header buttom 2-->
+
+    <nav class="bottom-navbar">
+      <a href="index.html" class="fas fa-home"></a>
+      <a href="index.html#lightnovel" class="fas fa-list"></a>
+      <a href="index.html#suscribe" class="fa-solid fa-bullhorn"></a>
+      <a href="index.html#arrival" class="fa-solid fa-exclamation"></a>
+      <a href="index.html#promo" class="fas fa-tags"></a>
+      <a href="index.html#review" class="fas fa-comments"></a>
+      <a href="index.html#blog" class="fa-solid fa-blog"></a>
+    </nav>
+
+    <!-- Login  -->
+
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input
+          type="email"
+          name=""
+          class="box"
+          placeholder="enter your active email"
+          id=""
+        />
+
+        <span>password</span>
+        <input
+          type="password"
+          name=""
+          class="box"
+          placeholder="enter your stronger password"
+          id=""
+        />
+
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Remember Me</label>
+        </div>
+
+        <input type="submit" value="sign in" class="btn" />
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>dont have acount ? <a href="#">create acount</a></p>
+      </form>
+    </div>
+
+    <!-- cart -->
+
+    <section class="cart" id cart>
+      <div class="small-container cart-page">
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="assets/book1.jpg" alt="" />
+                <div class="detail">
+                  <p class="product-name">
+                    The Vexations of a Shut-In Vampire Princess
+                  </p>
+                  <small class="product-price">price: $16.00</small>
+                  <a class="remove-link" href="">Remove</a>
+                  <br />
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td class="subtotal">$16.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="assets/book2.jpg" alt="" />
+                <div class="detail">
+                  <p class="product-name">
+                    The Vexations of a Shut-In Vampire Princess
+                  </p>
+                  <small class="product-price">price: $16.00</small>
+                  <a class="remove-link" href="">Remove</a>
+                  <br />
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="2" /></td>
+            <td class="subtotal">$16.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="assets/book3.jpg" alt="" />
+                <div class="detail">
+                  <p class="product-name">
+                    The Vexations of a Shut-In Vampire Princess
+                  </p>
+                  <small class="product-price">price: $16.00</small>
+                  <a class="remove-link" href="">Remove</a>
+                  <br />
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td class="subtotal">$16.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="assets/book5.jpg" alt="" />
+                <div class="detail">
+                  <p class="product-name">
+                    The Vexations of a Shut-In Vampire Princess
+                  </p>
+                  <small class="product-price">price: $16.00</small>
+                  <a class="remove-link" href="">Remove</a>
+                  <br />
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="2" /></td>
+            <td class="subtotal">$16.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="cart-info">
+                <img src="assets/book4.jpg" alt="" />
+                <div class="detail">
+                  <p class="product-name">
+                    The Vexations of a Shut-In Vampire Princess
+                  </p>
+                  <small class="product-price">price: $16.00</small>
+                  <a class="remove-link" href="">Remove</a>
+                  <br />
+                </div>
+              </div>
+            </td>
+            <td><input type="number" value="1" /></td>
+            <td class="subtotal">$16.00</td>
+          </tr>
+        </table>
+
+        <div class="total-price">
+          <table>
+            <tr>
+              <td>SubTotal</td>
+              <td>$112.00</td>
+            </tr>
+            <tr>
+              <td>Tax 5%</td>
+              <td>$$5.60</td>
+            </tr>
+            <tr>
+              <td>Ship</td>
+              <td>$00.00 (free ship up $100)</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>$117.60.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer" id="foot">
+      <div class="box-container">
+        <div class="box">
+          <h3>Location</h3>
+          <a href="#foot"> <i class="fas fa-map-marker-alt"></i> Indonesia </a>
+          <a href="#foot"> <i class="fas fa-map-marker-alt"></i> Japan </a>
+          <a href="#foot"> <i class="fas fa-map-marker-alt"></i> Malaysia </a>
+          <a href="#foot"> <i class="fas fa-map-marker-alt"></i> Filipina </a>
+          <a href="#foot"> <i class="fas fa-map-marker-alt"></i> Peru </a>
+          <a href="#foot"> <i class="fas fa-map-marker-alt"></i> Bolivia </a>
+          <a href="#foot"> <i class="fas fa-map-marker-alt"></i> Chile </a>
+        </div>
+
+        <div class="box">
+          <h3>Extra Link</h3>
+          <a href="index.html"> <i class="fas fa-home"></i> Home </a>
+          <a href="index.html#lightnovel">
+            <i class="fas fa-list"></i> Light Novel
+          </a>
+          <a href="index.html#suscribe">
+            <i class="fa-solid fa-bullhorn"></i> suscribe
+          </a>
+          <a href="index.html#arrival">
+            <i class="fa-solid fa-exclamation"></i> Arrivals
+          </a>
+          <a href="index.html#promo"> <i class="fas fa-tags"></i> Promotion </a>
+          <a href="index.html#review">
+            <i class="fas fa-comments"></i> Reviews
+          </a>
+          <a href="index.html#blog"> <i class="fa-solid fa-blog"></i> Blogs </a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#foot"> <i class="fas fa-phone"></i> 0823-2311-2312 </a>
+          <a href="#foot"> <i class="fas fa-phone"></i> 1231-1231-3123 </a>
+          <a href="https://login.microsoftonline.com/">
+            <i class="fas fa-envelope"></i> imaginary@binus.ac.id
+          </a>
+          <img src="assets/map.png" class="map" alt="" />
+        </div>
+      </div>
+
+      <div class="share">
+        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+        <a href="https://www.pinterest.com/" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">
+        created by
+        <span> binusian web design 2025 <span> all good jobs</span></span>
+      </div>
+    </section>
+
+    <!-- Loading screen -->
+
+    <div class="loader-container">
+        <img src="assets/kurukuru-kururing.gif" alt="">
+    </div>
+
+    <!-- end -->
+
+    <!-- JS link -->
+    <script src="./main.js" defer></script>
+
+    <!-- Other Icon Link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
+
+<script>
+  window.onscroll = () => {
+    if (window.scrollY > 80) {
+      document.querySelector(".header .header2").classList.add("active");
+    } else {
+      document.querySelector(".header .header2").classList.remove("active");
+    }
+  };
+
+  window.onload = () => {
+    if (window.scrollY > 80) {
+      document.querySelector(".header .header2").classList.add("active");
+    } else {
+      document.querySelector(".header .header2").classList.remove("active");
+    }
+
+    fadeOut();
+  };
+
+  function fadeOut() {
+    console.log("Fade Out Function");
+  }
+</script>
